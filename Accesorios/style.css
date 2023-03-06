@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sono:wght@400;500&family=Work+Sans:ital,wght@1,600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --colorTitle: rgb(248, 254, 255);
+    --font: Sono;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(187, 56, 30);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 4;
+    font-family: var(--font);
+    color: var(--colorTitle);
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    margin:0px 100px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: var(--colorTitle);
+}
+
+nav > ul > li {
+    margin: 0px 20px;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+
+nav > h1 {
+
+    margin: 0px 130px;
+}
+
+#Act {
+    padding-top:100px ;
+    z-index: 3;
+    width: 100%;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    height: 90vh;
+    background-color: rgb(46, 37, 37);
+}
+
+#Act > div {
+    padding-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgAct {
+    margin: 10%;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+#Act > div > h1 {
+    font-size: 80px;
+    font-family: var(--font);
+    color: var(--colorTitle);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    height: 50px;
+    border-radius: 10px;
+    font-family: var(--font);
+    font-size: 17px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.html, .css, .js {
+    margin: 40px 0;
+    width: 60%;
+}
+
+.html:hover {
+    background: linear-gradient(90deg, yellow, red);
+}
+.css:hover {
+    background: linear-gradient(90deg, aqua, blue);
+}
+.js:hover {
+    background: linear-gradient(90deg, yellow, green);
+}
+
+#links {
+    z-index: 2;
+    height: 100vh;
+    background: linear-gradient(rgb(46, 37, 37), white);
+}
+
+#links > h1, #info > h1 {
+    font-size: 45px;
+    font-family: var(--font);
+    
+    
+    text-align: center;
+}
+
+#links > h1 {
+    color: var(--colorTitle);
+    padding: 20vh 0px 10px 0px;
+}
+
+#links .btn {
+    margin: 4%;
+}
+
+.local, .lin {
+    display: flex;
+    justify-content: center;
+}
+
+.linkl {
+    width: 30%;
+}
+
+.linkl:hover {
+    background: linear-gradient(rgb(146, 196, 227), rgb(48, 106, 208));
+}
+
+.ext > h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#info {
+    height: 50vh;
+}
+
+.bio {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.bio > p {
+    font-size: 22px;
+    font-family: "PlayFair Display";
+    text-align: justify;
+}
+
+.bio > p >img {
+    float: left;
+    width: 300px;
+    margin: 10px 30px;
+}

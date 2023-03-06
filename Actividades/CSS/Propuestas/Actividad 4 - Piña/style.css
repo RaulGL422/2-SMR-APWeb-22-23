@@ -1,0 +1,14 @@
+img {
+    float: left;
+    max-width: 200px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    width:200px;
+    height: 40px;
+}

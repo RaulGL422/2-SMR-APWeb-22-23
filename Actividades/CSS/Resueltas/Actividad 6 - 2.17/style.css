@@ -1,0 +1,29 @@
+.menu {
+    width: 180px;
+    list-style: none;
+    margin: 45px;
+    padding: 0;
+    border: 1px solid #7c7c7c;
+}
+
+.menu li a {
+    padding: 0 15%;
+    display: block;
+    text-decoration: none;
+    color: #610B0B;
+    background: #F6CEF5 url("flecha_inactiva.png") no-repeat 3px;
+}
+
+.menu li {
+    border-bottom: 1px solid #7c7c7c;
+    border-top: 1px solid #FFF;
+}
+
+.menu li a:hover, .menu li a:active {
+    background: #58FA58 url(flecha_activa.png) no-repeat 3px;
+}
+
+button {
+    width:200px;
+    height: 40px;
+}

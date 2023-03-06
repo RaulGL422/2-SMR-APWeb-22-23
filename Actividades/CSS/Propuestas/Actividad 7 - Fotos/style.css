@@ -1,0 +1,31 @@
+div {
+    margin: 15px;
+    border: 5px solid yellow;
+    float: left;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: yellow;
+}
+
+div:hover {
+    border: 5px solid yellowgreen;
+}
+
+button {
+    position: absolute;
+    top: 90%;
+    right: 20px;
+    width:200px;
+    height: 40px;
+}

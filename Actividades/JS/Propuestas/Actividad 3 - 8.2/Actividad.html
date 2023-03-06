@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="../../../../Accesorios/favicon.ico"/>
+    <meta name="keywords" content="actividad aplicacionesweb smr" />
+    <meta name="author" content="Raúl Galindo López" />
+    <meta name="description" content="Pagina de una actividad con JS" />
+    <title>Actividad 3 JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <style>
+        table {
+            width: 50%;
+            height: 200px;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Verdana;
+            background-color: aqua;
+            margin: 0 auto;
+        }
+
+        table, td, th {
+            border: 2px solid black;
+        }
+
+        p, h1 {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        var nombre, edad, poblacion, centro;
+        nombre = prompt('Nombre: ');
+        edad = prompt('Edad: ');
+        poblacion = prompt('Poblacion: ');
+        centro = prompt('Centro de Trabajo: ');
+
+        alert('El nombre es ' + nombre + ', su edad es de ' + edad + ' años, actualmente vive ' + poblacion + ', y trabaja / estudia en ' + centro);
+        document.write('<h1>El nombre es ' + nombre + ', su edad es de ' + edad + ' años, actualmente vive ' + poblacion + ', y trabaja / estudia en ' + centro + '</h1>');
+
+        document.write('<br /><br /><table><tr><th>Nombre</th><th>Edad</th><th>Poblacion</th><th>Centro</th></tr>');
+        document.write('<tr><td>' + nombre + '</td><td>' + edad + '</td><td>' + poblacion + '</td><td>' + centro + '</td></tr></table>');
+    </script>
+</head>
+<body>
+    <p>Esto esta dentro del body</p>
+
+    <button onclick="document.location.replace('../../../Actividades_JS.html')">
+        Volver
+    </button>
+</body>
+</html>

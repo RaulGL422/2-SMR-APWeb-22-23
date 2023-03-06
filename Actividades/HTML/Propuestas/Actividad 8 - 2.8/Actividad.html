@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/ico" href="../../../../Accesorios/favicon.ico"/>
+    <title>Actividad propuesta 2.8</title>
+    <meta name="keywords" content="actividad aplicacionesweb smr" />
+    <meta name="author" content="Raúl Galindo López" />
+    <meta name="description" content="Pagina de una actividad propuesta" />
+</head>
+<body bgcolor="antiquewhite">
+    <h1 align="center">DATOS DE EMPLEADOS</h1>
+    <form  action="mailto:raulglprogram@gmail.com" method="post" enctype="text/plain">
+        <table bgcolor="yellow" align="center" width="600" cellspacing="1" cellpadding="20" border="1">
+            <td>
+                <p>Elige color: <input type="color" name="color"></p>
+                <p>Nombre de empleado: <input type="text" name="nombre" placeholder="Nombre de persona"></p>
+                <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+                <p>Salario (entre 900 a 2000): <input type="number" min="900" max="2000" name="salario"></p>
+                <p>E-mail: <input type="email" name="email"></p>
+                <p>Mes de alta: <input type="month" name="mes de alta"></p>
+                <p>Años de experiencia (1 - 50): <input type="number" min="1" max="50" name="años"></p>
+                <p>Nivel de experiencia (1 - 9): <input  type="range" name="nivel-experiencia" min="1" max="9"></p>
+                <p>Comentario:</p>
+                <textarea placeholder="Texto del comentario..." name="comentario" cols="70" rows="10"></textarea>
+                <p align="center">
+                    <input type="submit" value="Enviar datos" />
+                    <input type="reset" value="Limpiar Datos" />
+                    <input type="button" value="Cerrar ventana" onclick="self.close();"/>
+                    <input type="button" value="Abrir Formulario 1" onclick="window.location.replace('../2.7a/Actividad.html');" />
+                    <input type="button" value="Abrir Formulario 2" onclick="window.location.replace('../2.7b/Actividad.html');" />
+                </p>
+            </td>
+        </table>
+    </form >
+    <h3 align="center">
+        <a href="../../../Actividades_HTML.html">Volver</a>
+    </h3>
+</body>
+</html>

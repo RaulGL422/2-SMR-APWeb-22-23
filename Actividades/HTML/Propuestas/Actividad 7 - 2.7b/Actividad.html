@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/ico" href="../../../../Accesorios/favicon.ico"/>
+    <title>Actividad propuesta 2.7 B</title>
+    <meta name="keywords" content="actividad aplicacionesweb smr" />
+    <meta name="author" content="Raúl Galindo López" />
+    <meta name="description" content="Pagina de una actividad propuesta" />
+</head>
+<body bgcolor="antiquewhite">
+    <h1 align="center">DATOS DE ALUMNOS - CONTINUACIÓN</h1>
+    <form action="mailto:raulglprogram@gmail.com" method="post" enctype="text/plain">
+        <table border="1" width="1000" align="center">
+            <td>        
+                <h3>Teclea más datos</h3>
+                <h4>Teclea fecha de nacimiento:</h4>
+                <p>
+                    Teclea dia de nacimiento <input type="text" name="dia-nacimiento">
+                    
+                    Selecciona mes de nacimiento:
+                    <select name="mes-nacimiento">
+                        <option value="Enero" selected>Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
+                    </select>
+                    Teclea año de nacimiento <input type="text" name="año-nacimiento">
+                </p>
+                <p>
+                    Selecciona el curso
+                    <select name="curso">
+                        <option value="1smr" selected>1º de SMR</option>
+                        <option value="2smr">2º de SMR</option>
+                    </select>
+                </p>
+                <hr size="2" color="black">
+                <p>
+                    Elige 3 optativas
+                    <input type="checkbox" value="ingles">Ingles
+                    <input type="checkbox" value="frances">Frances
+                    <input type="checkbox" value="deporte">Deporte
+                    <input type="checkbox" value="astronomia">Astronomia
+                    <input type="checkbox" value="historia">Historia
+                    <input type="checkbox" value="pagina-web">Pagina web
+                    <input type="checkbox" value="redes">Redes
+                </p>
+                <hr size="2" color="black">
+                <p>
+                    Selecciona el turno:
+                    <input type="radio" value="diurno" name="hora">Diurno
+                    <input type="radio" value="nocturno" name="hora">Nocturno
+                    <input type="radio" value="vespertino" name="hora">Vespertino
+                </p>
+                <hr size="2" color="black">
+                <p align="center">
+                    <input type="submit" value="Enviar datos" />
+                    <input type="reset" value="Limpiar Datos" />
+                    <input type="button" value="Cerrar ventana" onclick="window.close();"/>
+                    <input type="button" value="Anterior Formulario" onclick="window.location.replace('../Actividad 2.7a/Actividad.html');" />
+                </p>
+            </td>
+        </table>
+    </form>
+    <h3 align="center">
+        <a href="../../../Actividades_HTML.html">Volver</a>
+    </h3>
+</body>
+</html>

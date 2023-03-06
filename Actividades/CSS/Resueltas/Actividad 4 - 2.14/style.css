@@ -1,0 +1,30 @@
+#menuhorizontal {
+    width: 550px;
+    border: 5px double black;
+    margin: 50px;
+    height: 20px;
+}
+
+#menuhorizontal > a {
+    margin: 0px 20px;
+    padding: 0px 25px 0px;
+    text-decoration: none;
+    color: black;
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+
+#menuhorizontal > a:hover, #menuhorizontal > a:active {
+    background: #31d331;
+    color: white;
+}
+
+#menuhorizontal > a:visited {
+    color: black;
+}
+
+button {
+    width:200px;
+    height: 40px;
+}

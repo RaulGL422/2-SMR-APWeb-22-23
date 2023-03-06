@@ -1,0 +1,20 @@
+.des1 {
+    list-style: circle;
+}
+
+.des2 {
+    list-style: square;
+}
+
+.or1 {
+    list-style: upper-roman;
+}
+
+.or2 {
+    list-style:lower-alpha
+}
+
+button {
+    width:200px;
+    height: 40px;
+}
