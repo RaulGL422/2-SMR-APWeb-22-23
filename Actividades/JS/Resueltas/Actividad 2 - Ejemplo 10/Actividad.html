@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="../../../../Accesorios/favicon.ico"/>
+    <meta name="keywords" content="actividad aplicacionesweb smr" />
+    <meta name="author" content="Raúl Galindo López" />
+    <meta name="description" content="Pagina de una actividad con JS" />
+    <title>Actividad 2</title>
+    <script>
+        var nota = prompt('Introduce la nota:');
+        if (nota >= 5 && nota <= 10) {
+            alert('Aprobadisimo');
+        } else {
+            if (nota >= 0 && nota <= 5) {
+                alert('Suspenso');
+            } else {
+                alert('Error');
+            }
+        }
+    </script>
+</head>
+<body>
+    <br />
+    <br />
+    <button onclick="document.location.replace('../../../Actividades_JS.html')">
+        Volver
+    </button>
+</body>
+</html>
